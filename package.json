@@ -1,16 +1,36 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is an ecommerce site develope by Dibash thapa",
+
+
   "main": "app.js",
-  "scripts": {
-    "test": "npm start",
-    "start": "node app.js"
+    "scripts": {
+      "test": "npm start",
+      "start": "node app.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibashthapa/ecommerce.git"
   },
-  "author": "",
+  "keywords": [
+    "Nodejs",
+    "npm",
+    "ecommercesite"
+  ],
+  "author": "Dibash Thapa",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibashthapa/ecommerce/issues"
+  },
+  "homepage": "https://github.com/dibashthapa/ecommerce#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "ejs": "^3.0.1",
+    "ejs-lint": "^1.0.1",
+    "express": "^4.17.1",
+    "key-events": "^0.1.1",
+    "neat-csv": "^5.1.0"
   }
 }
