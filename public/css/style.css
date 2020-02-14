@@ -1,0 +1,174 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+
+
+  font-family: 'Lemonada', cursive;
+}
+
+.navigationbar ul li{
+  float:left;
+  list-style: none;
+  width:100px;
+  color:#ffffff;
+  padding:10px 20px;
+  margin:20px;
+}
+.navigationbar ul li a {
+  color:#ffffff;
+  text-decoration: none;
+}
+/* Search bar begin */
+
+.container{
+  background-color: #495057;
+  height:100px;
+}
+.searchbar{
+  width:80%;
+  margin-top:20px;
+  position: absolute;
+  height:20px;
+}
+.searchbar input{
+  height:40px;
+  border:none;
+  position: relative;
+  left:50%;
+  width:250px;
+  text-align:center;
+  background-color: #f1f3f5;
+}
+
+.searchbar .fa-search{
+  position: absolute;
+  left:69.6%;
+  padding:12px 10px;
+  color:#228be6;
+  background-color: silver;
+
+
+}
+/* form begin */
+.form {
+  position: absolute;
+  left:60%;
+}
+.form ul li a:hover{
+
+  text-decoration: underline;
+
+}
+
+/* end */
+/* Shoping Cart Begin */
+.cart{
+  position: absolute;
+  right:0;
+  top:20px;
+}
+.cart .cart-text{
+  font-size:0.8em;
+  color:#ffffff;
+  margin:5px;
+}
+.cart .cart-text a {
+
+  text-decoration: none;
+}
+.cart .cart-text a:hover{
+
+  text-decoration: underline;
+}
+.cart .fa-shopping-cart{
+  padding:10px 20px;
+  border-radius:10px;
+  background-color:rgb(20, 121, 254);
+  margin:10px 20px;
+}
+/* Shopping Card End */
+/* categories */
+.categories{
+  height:50px;
+  width:100%;
+  position: relative;
+  background-color: #ffffff;
+}
+.categories ul li{
+  display:inline-block;
+  width:100px;
+  border-radius:10px;
+  margin:5px;
+  background-color:#5050c4;
+  color:#ffff;
+  padding:5px 10px;
+  text-align:center;
+}
+.categories ul li a {
+  text-decoration:none;
+  color:#000;
+}
+/* End */
+/* Img Start */
+.images{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: flex-end;
+}
+.img{
+  margin:20px;
+}
+
+/* Img end */
+/* Search results begin */
+.searchresults{
+  position: absolute;
+  background-color:#FFFAFA;
+  margin-top:2px;
+  border:1px;
+  padding:10px 20px;
+  left:50%;
+  width:210px;
+  height:40px;
+  z-index:100;
+
+  display:none;
+}
+.results{
+  font-weight: 900;
+}
+
+/* end */
+/* button styling */
+button[type=button]{
+  border:0px;
+  padding:5px 10px;
+  color:green;
+  border:2px solid green;
+  background: transparent;
+  height:40px;
+  width:150px;
+  font-weight:bold;
+}
+
+/* end */
+/* Products */
+.products-list > div {
+  display: inline-block;
+
+}
+.products-list img {
+margin-bottom:50px;
+margin-top:5px;
+  vertical-align: middle;
+}
+
+.products-list button{
+position: relative;
+top:85px;
+left:-155px;
+}
+
+/* End */

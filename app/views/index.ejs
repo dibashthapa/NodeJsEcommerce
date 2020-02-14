@@ -1,0 +1,23 @@
+<%- include ("includes/header") -%>
+<!-- Second section -->
+
+<div class="products-list">
+  <% data.forEach((items)=>{ %>
+    <p><%= items.name %></p>
+    <%  items.img_url.forEach((img)=>{%>
+      <div class="images">
+        <img src="<%=img %>" alt="" height="150px" width="150px">
+      </div>
+      <div class="images">
+        <button type="button">Add</button>
+      </div>
+      <%})%>
+      <% })%>
+    </div>
+
+
+  <!-- End -->
+  <!-- Script file -->
+  <script src="/js/script.js"></script>
+  <!-- end -->
+  <%- include ("includes/footer") -%>
