@@ -2,13 +2,11 @@
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "this is an ecommerce site develope by Dibash thapa",
-
-
   "main": "app.js",
-    "scripts": {
-      "test": "npm start",
-      "start": "node app.js"
-    },
+  "scripts": {
+    "test": "npm start",
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dibashthapa/ecommerce.git"

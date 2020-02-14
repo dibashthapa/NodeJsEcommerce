@@ -6,7 +6,7 @@ router.get('/categories/foods', (req, res, next) => {
   axios.get("https://ecommeceapi.herokuapp.com/search?title=food")
   .then((api_data)=>{
     response= JSON.parse(JSON.stringify(api_data.data));
-console.log(response)
+
 res.render("foods",{data:response})
   })
   .catch((err)=>{
@@ -21,7 +21,7 @@ router.get('/categories/outfits', (req, res, next) => {
   axios.get("https://ecommeceapi.herokuapp.com/search?title=outfit")
   .then((api_data)=>{
     response= JSON.parse(JSON.stringify(api_data.data));
-console.log(response)
+
 res.render("outfits",{data:response})
   })
   .catch((err)=>{
