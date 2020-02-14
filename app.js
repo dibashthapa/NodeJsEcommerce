@@ -11,6 +11,6 @@ app.use(express.static("public"))
 app.use('/css',express.static(__dirname +'/css'));
 app.use(cors())
 require('./app/routes')(app);
-app.listen(5000,()=>{
+app.listen(5000 || process.env.PORT,()=>{
   console.log("Server running")
 })
