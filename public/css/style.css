@@ -45,7 +45,7 @@ body{
 .searchbar .fa-search{
   position: absolute;
   left:69.6%;
-  padding:12px 10px;
+  padding:12px 11px;
   color:#228be6;
   background-color: silver;
 
@@ -133,11 +133,21 @@ body{
   width:210px;
   height:40px;
   z-index:100;
-
-  display:none;
+display:none;
 }
 .results{
   font-weight: 900;
+}
+.results a{
+  border:2px solid green;
+  background: transparent;
+padding:5px 10px;
+
+height:40px;
+width:150px;
+color:green;
+text-decoration: none;
+font-weight: bold;
 }
 
 /* end */
@@ -152,7 +162,11 @@ button[type=button]{
   width:150px;
   font-weight:bold;
 }
-
+button[type=button] a{
+  text-decoration: none;
+  color:green;
+  
+}
 /* end */
 /* Products */
 .products-list > div {

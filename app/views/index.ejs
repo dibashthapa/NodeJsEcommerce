@@ -4,14 +4,15 @@
 <div class="products-list">
   <% data.forEach((items)=>{ %>
     <p><%= items.name %></p>
-    <%  items.img_url.forEach((img)=>{%>
+    <% for (i=0;i<items.img_url.length;i++){%>
       <div class="images">
-        <img src="<%=img %>" alt="" height="150px" width="150px">
+        <img src="<%=items.img_url[i] %>" alt="" height="150px" width="150px">
       </div>
       <div class="images">
-        <button type="button">Add</button>
+  <button type="button" name="button"><a href="/cart?types=<%= items.types[i]%>">Add</a></button>
+
       </div>
-      <%})%>
+      <%}%>
       <% })%>
     </div>
 
