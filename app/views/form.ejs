@@ -1,0 +1,56 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<div class="container">
+
+
+<form  action="/add" method="POST">
+  <div class="form-group">
+  <label for="category">Category <span class="text-danger">*</span></label>
+  <select class="form-control" name="category">
+<option value="Electronic Accesories">Electronic Accesories</option>
+<option value="TV & Home Appliances">TV & Home Appliances</option>
+<option value="Health & Beauty">Health & Beauty</option>
+<option value="Babies & Toys">Babies & Toys</option>
+<option value="Groceries & Pets">Groceries & Pets</option>
+<option value="Home & lifestyle">Home & lifestyle</option>
+<option value="Women's Fashion">Women's Fashion</option>
+<option value="Men's Fashion">Men's Fashion</option>
+<option value="Watches & Accessories">Watches & Accessories</option>
+<option value="Sports & Outdoor">Sports & Outdoors</option>
+<option value="Automobile & Motorbike">Automobile & Motorbike</option>
+
+  </select>
+
+    </div>
+    <div class="form-group">
+      <label for="">Item Name <span class="text-danger">*</span></label>
+      <input type="text" name="item_name" class="form-control " value="">
+    </div>
+<div class="form-group">
+<label for="">Price <span class="text-danger">*</span></label>
+<input type="text" name="price" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="">Image Url <span class="text-danger">*</span></label>
+<input type="text" name="url" value="" class="form-control">
+</div>
+<div class="form-group">
+
+    <label for="">Ratings <span class="text-danger">*</span></label>
+  <input type="number" name="rating" value="" class="form-control">
+</div>
+
+<span class="alert alert-warning" role="alert">Warning! : Please Add the name of the item not the type of the item in Item Name  field.
+Add the type of momo not the momo
+</span>
+<br>
+<br>
+
+<br>
+<button type="submit" class="btn btn-danger">Submit</button>
+
+</form>
+</div>
