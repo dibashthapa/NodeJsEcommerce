@@ -1,3 +1,4 @@
 color.txt
 products.csv
+.env
 node_modules/*
