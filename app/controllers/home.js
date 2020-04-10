@@ -10,10 +10,6 @@ router.get('/', (req, res, next) => {
     response= JSON.parse(JSON.stringify(api_data.data));
 res.render("index",{data:response})
   })
-  .catch((err)=>{
-    console.log(err)
-  })
-
 });
 
 module.exports = router;
